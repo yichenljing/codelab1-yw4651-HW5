@@ -51,7 +51,8 @@ public class AsciiLevelLoader : MonoBehaviour
                         newObject.transform.position =
                                 new Vector2(x + xOffset, -y + yOffset);
                         break;
-                    case '*':
+
+                    case 'E':
                         newObject = Instantiate<GameObject>(prize);
                         newObject.transform.position =
                                      new Vector2(x + xOffset, -y + yOffset);

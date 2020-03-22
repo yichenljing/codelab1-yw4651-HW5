@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5639808339100123351}
+  - component: {fileID: -1968508560078804470}
   - component: {fileID: 2400199740232757016}
   - component: {fileID: -5420789593174854516}
   m_Layer: 0
@@ -32,6 +33,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1968508560078804470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387660833997883802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0827b895efb8446c7ae9b4ab5dc02968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorA: {r: 0.9568628, g: 0.6901961, b: 0.24313727, a: 1}
+  colorB: {r: 0.990566, g: 0.2009167, b: 0.68995017, a: 0}
+  ScoreText: {fileID: 0}
 --- !u!212 &2400199740232757016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -72,7 +88,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0dc6e470b334f4b41a7fdbae2d984c0b, type: 3}
-  m_Color: {r: 1, g: 0.6841279, b: 0, a: 1}
+  m_Color: {r: 0.95686275, g: 0.6901961, b: 0.24313726, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
