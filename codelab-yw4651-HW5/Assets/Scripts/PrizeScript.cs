@@ -8,8 +8,6 @@ public class PrizeScript : MonoBehaviour
     public Color colorA;
     public Color colorB;
     
-
-
     public static int currentLevel = 0;
     
  
@@ -31,11 +29,17 @@ public class PrizeScript : MonoBehaviour
         if (transform.GetComponent<SpriteRenderer>().color != colorB) //when the prize is green on collison
       
         {
-
-                currentLevel++; //increate the level number
+            Destroy(this.gameObject);
+            currentLevel++; //increate the level number
                 SceneManager.LoadScene(currentLevel); //go to the next level
+
             }
 
-        
+        if (transform.GetComponent<SpriteRenderer>().color != colorA) //when the prize is green on collison
+
+        {
+
+        }
+
     }
 }
