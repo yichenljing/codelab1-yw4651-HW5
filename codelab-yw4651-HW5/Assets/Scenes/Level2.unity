@@ -195,7 +195,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 9.1835e-41}
+  m_BoundingSphereOverride: {x: 0, y: -1.0504387e+34, z: 4.574e-41, w: 2.2555269e-10}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 2531755825052743343, guid: f6386bc82a30b42d98083f9da04bc007, type: 3}
-  prize: {fileID: 0}
+  prize: {fileID: 7383849471266158692, guid: d9221e4d1df4b40cda66b8b5e5d81c6d, type: 3}
   player: {fileID: 8150632813636048878, guid: fbb922fff8d564452a1483f880a83af6, type: 3}
   xOffset: -5
   yOffset: 5
