@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 2531755825052743343, guid: f6386bc82a30b42d98083f9da04bc007, type: 3}
-  prize: {fileID: 0}
+  prize: {fileID: 726428076329588252, guid: d9221e4d1df4b40cda66b8b5e5d81c6d, type: 3}
   player: {fileID: 8150632813636048878, guid: fbb922fff8d564452a1483f880a83af6, type: 3}
   xOffset: -5
   yOffset: 5
